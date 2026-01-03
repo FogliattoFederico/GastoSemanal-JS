@@ -1,87 +1,59 @@
-Budget Control App 💰
-Descripción del Proyecto
-Una aplicación web interactiva y responsive desarrollada con HTML5, Bootstrap 5 y JavaScript Vanilla que permite a los usuarios gestionar sus finanzas personales de manera sencilla y visual.
+# **Budget Control App** 💰
+## **Project Description**
+An interactive and responsive web application built with HTML5, Bootstrap 5, and Vanilla JavaScript that allows users to manage their personal finances in a simple and visual way.
 
-Características Principales
-🎯 Funcionalidades Core
-Ingreso de Presupuesto: Establece tu presupuesto inicial semanal/mensual
+## **Key Features**
+### **🎯 Core Functionalities**
+- **Budget Input**: Set your initial weekly/monthly budget
+- **Expense Registration**: Add individual expenses with name and amount
+- **Automatic Calculation**: Automatically subtracts each expense from available budget
+- **Clear Visualization**: Shows total budget vs remaining in real time
 
-Registro de Gastos: Añade gastos individuales con nombre y cantidad
+### **🔄 Application Flow**
+1. **Step 1**: User enters initial budget
+2. **Step 2**: Adds individual expenses with description and amount
+3. **Step 3**: The app calculates and displays remaining balance
+4. **Step 4**: Organized list of all registered expenses
 
-Cálculo Automático: Resta automáticamente cada gasto del presupuesto disponible
+### **🚨 Smart Alerts**
+- **Real-time Validation**: Prevents incorrect inputs
+- **Visual Notifications**:
+  - ✅ Success when an expense is added
+  - ⚠️ Warning when budget drops below 50%
+  - 🔴 Danger when budget drops below 25% or runs out
+- **Contextual Messages**: Informs about financial status
 
-Visualización Clara: Muestra presupuesto total vs restante en tiempo real
+### **🗑️ Expense Management**
+- **Individual Removal**: Removes specific expenses
+- **Instant Recalculation**: Updates budget when deleting
+- **Complete History**: Maintains record of all transactions
 
-🔄 Flujo de la Aplicación
-Paso 1: Usuario ingresa su presupuesto inicial
+## **User Interface**
+### **🎨 Bootstrap 5 Design**
+- **Responsive Layout**: Adapts to mobiles, tablets, and desktops
+- **Card Components**: Information organized in cards
+- **Color Coding**:
+  - Green: Healthy budget
+  - Yellow: Budget warning
+  - Red: Critical budget
+- **Validated Forms**: Inputs with visual feedback
 
-Paso 2: Agrega gastos individuales con descripción y monto
+### **📊 Main Sections**
+1. **Budget Panel**: Shows total and remaining
+2. **Expense Form**: Input for new expenses
+3. **Expense List**: History with removal option
+4. **Alert System**: Temporary notifications
 
-Paso 3: La app calcula y muestra el saldo restante
+## **Technologies Used**
+| Technology | Purpose |
+|------------|---------|
+| **HTML5** | Semantic content structure |
+| **Bootstrap 5** | CSS framework for responsive design |
+| **Vanilla JavaScript** | Business logic and interactions |
 
-Paso 4: Lista organizada de todos los gastos registrados
-
-🚨 Alertas Inteligentes
-Validación en tiempo real: Previene entradas incorrectas
-
-Notificaciones visuales:
-
-✅ Éxito cuando se agrega un gasto
-
-⚠️ Advertencia cuando el presupuesto baja del 50%
-
-🔴 Peligro cuando el presupuesto baja del 25% o se agota
-
-Mensajes contextuales: Informa sobre el estado financiero
-
-🗑️ Gestión de Gastos
-Eliminación individual: Remueve gastos específicos
-
-Recálculo instantáneo: Actualiza el presupuesto al eliminar
-
-Historial completo: Mantiene registro de todas las transacciones
-
-Interfaz de Usuario
-🎨 Diseño con Bootstrap 5
-Layout Responsive: Se adapta a móviles, tablets y desktop
-
-Card Components: Información organizada en tarjetas
-
-Color Coding:
-
-Verde: Presupuesto saludable
-
-Amarillo: Advertencia presupuestal
-
-Rojo: Presupuesto crítico
-
-Formularios Validados: Inputs con feedback visual
-
-📊 Secciones Principales
-Panel de Presupuesto: Muestra total y restante
-
-Formulario de Gastos: Entrada para nuevos gastos
-
-Lista de Gastos: Historial con opción de eliminación
-
-Sistema de Alertas: Notificaciones temporales
-
-Tecnologías Utilizadas
-Tecnología	Propósito
-HTML5	Estructura semántica del contenido
-Bootstrap 5	Framework CSS para diseño responsive
-JavaScript Vanilla	Lógica de negocio e interacciones
-
-🎯 Para Aprendizaje
-Proyecto educativo perfecto para aprender JavaScript
-
-Manejo del DOM con operaciones CRUD
-
-Validación de formularios sin librerías externas
-
-Programación orientada a objetos aplicada
-
-
-
-
+### **🎯 For Learning**
+- Perfect educational project for learning JavaScript
+- DOM manipulation with CRUD operations
+- Form validation without external libraries
+- Applied object-oriented programming
 
